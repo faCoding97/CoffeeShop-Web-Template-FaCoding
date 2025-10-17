@@ -6,7 +6,8 @@ import { getAllItems, getCategories } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Menu",
-  description: "Explore our full digital menu: hot coffee, cold drinks, pastries, snacks, and more."
+  description:
+    "Explore our full digital menu: hot coffee, cold drinks, pastries, snacks, and more.",
 };
 
 export default function MenuPage() {

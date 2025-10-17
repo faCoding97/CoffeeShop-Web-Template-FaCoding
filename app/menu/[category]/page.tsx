@@ -17,7 +17,7 @@ export function generateMetadata({ params }: Props): Metadata {
   return {
     title: `Menu · ${cat}`,
     description: `Browse our ${cat} selections prepared by our baristas.`,
-    alternates: { canonical: `/menu/${params.category}` }
+    alternates: { canonical: `/menu/${params.category}` },
   };
 }
 
@@ -25,12 +25,17 @@ export default function CategoryPage({ params }: Props) {
   const items = getItemsByCategorySlug(params.category);
   const categories = getCategories();
   if (!items || items.length === 0) return notFound();
-  const current = categories.find((c) => slugify(c) === params.category) || "Menu";
+  const current =
+    categories.find((c) => slugify(c) === params.category) || "Menu";
   return (
     <main className="section">
       <div className="container">
         <SectionTitle title={`Our ${current}`} center />
-        <MenuGrid categories={categories} items={items} defaultCategorySlug={params.category} />
+        <MenuGrid
+          categories={categories}
+          items={items}
+          defaultCategorySlug={params.category}
+        />
       </div>
     </main>
   );

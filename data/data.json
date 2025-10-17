@@ -49,10 +49,7 @@
       "description": "Rich and bold drip coffee from freshly ground beans.",
       "image": "/images/black-coffee.jpg",
       "price": "$3.99",
-      "ingredients": [
-        "Freshly ground beans",
-        "Hot water"
-      ]
+      "ingredients": ["Freshly ground beans", "Hot water"]
     },
     {
       "category": "Hot Coffee",
@@ -60,11 +57,7 @@
       "description": "Silky microfoam over a bold espresso base.",
       "image": "/images/cappuccino.jpg",
       "price": "$4.99",
-      "ingredients": [
-        "Espresso",
-        "Steamed milk",
-        "Milk foam"
-      ]
+      "ingredients": ["Espresso", "Steamed milk", "Milk foam"]
     },
     {
       "category": "Hot Drinks",
@@ -72,12 +65,7 @@
       "description": "Creamy chocolate with a hint of vanilla.",
       "image": "/images/hot-chocolate.jpg",
       "price": "$4.50",
-      "ingredients": [
-        "Cocoa",
-        "Milk",
-        "Sugar",
-        "Vanilla"
-      ]
+      "ingredients": ["Cocoa", "Milk", "Sugar", "Vanilla"]
     },
     {
       "category": "Cold Coffee",
@@ -85,11 +73,7 @@
       "description": "Chilled espresso with milk over ice.",
       "image": "/images/iced-latte.jpg",
       "price": "$4.99",
-      "ingredients": [
-        "Espresso",
-        "Cold milk",
-        "Ice"
-      ]
+      "ingredients": ["Espresso", "Cold milk", "Ice"]
     },
     {
       "category": "Cold Drinks",
@@ -97,12 +81,7 @@
       "description": "Zesty, refreshing, lightly sweetened.",
       "image": "/images/lemon-iced-tea.jpg",
       "price": "$3.75",
-      "ingredients": [
-        "Black tea",
-        "Lemon",
-        "Sugar",
-        "Ice"
-      ]
+      "ingredients": ["Black tea", "Lemon", "Sugar", "Ice"]
     },
     {
       "category": "Pastries",
@@ -110,13 +89,7 @@
       "description": "Flaky, buttery layers baked fresh daily.",
       "image": "/images/croissant.jpg",
       "price": "$2.99",
-      "ingredients": [
-        "Butter",
-        "Flour",
-        "Yeast",
-        "Sugar",
-        "Salt"
-      ]
+      "ingredients": ["Butter", "Flour", "Yeast", "Sugar", "Salt"]
     },
     {
       "category": "Snacks",
@@ -124,12 +97,7 @@
       "description": "Crunchy Italian biscuit, perfect for dunking.",
       "image": "/images/biscotti.jpg",
       "price": "$2.25",
-      "ingredients": [
-        "Almonds",
-        "Flour",
-        "Sugar",
-        "Eggs"
-      ]
+      "ingredients": ["Almonds", "Flour", "Sugar", "Eggs"]
     }
   ]
 }

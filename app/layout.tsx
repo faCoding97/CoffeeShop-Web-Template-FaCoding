@@ -13,40 +13,46 @@ export const metadata: Metadata = {
   metadataBase: new URL(data.siteUrl || "https://coffee.elixflare.com"),
   title: {
     default: `${data.cafeInfo.name} · Coffee & Pastries`,
-    template: `%s · ${data.cafeInfo.name}`
+    template: `%s · ${data.cafeInfo.name}`,
   },
   description: "Premium coffee, pastries, and a cozy digital menu—scan & sip.",
   openGraph: {
     title: `${data.cafeInfo.name} · Coffee & Pastries`,
-    description: "Premium coffee, pastries, and a cozy digital menu—scan & sip.",
+    description:
+      "Premium coffee, pastries, and a cozy digital menu—scan & sip.",
     url: "/",
     siteName: data.cafeInfo.name,
     images: [{ url: "/images/hero.jpg", width: 1200, height: 630 }],
     locale: "en_ZA",
-    type: "website"
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: `${data.cafeInfo.name} · Coffee & Pastries`,
-    description: "Premium coffee, pastries, and a cozy digital menu—scan & sip.",
-    images: ["/images/hero.jpg"]
+    description:
+      "Premium coffee, pastries, and a cozy digital menu—scan & sip.",
+    images: ["/images/hero.jpg"],
   },
   alternates: {
-    canonical: "/"
+    canonical: "/",
   },
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
   },
   robots: {
     index: true,
-    follow: true
+    follow: true,
   },
   icons: {
-    icon: "/favicon.svg"
-  }
+    icon: "/favicon.svg",
+  },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body className={inter.className}>

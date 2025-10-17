@@ -6,7 +6,8 @@ import { data } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "We are ElixCode Coffee Shop — brewing community one cup at a time."
+  description:
+    "We are ElixCode Coffee Shop — brewing community one cup at a time.",
 };
 
 export default function AboutPage() {
@@ -14,7 +15,12 @@ export default function AboutPage() {
     <main className="section">
       <div className="container grid md:grid-cols-2 gap-10 items-center">
         <div className="relative h-72 md:h-96 rounded-2xl overflow-hidden shadow-soft">
-          <Image src="/images/about.jpg" alt="About us" fill className="object-cover" />
+          <Image
+            src="/images/about.jpg"
+            alt="About us"
+            fill
+            className="object-cover"
+          />
         </div>
         <div>
           <SectionTitle title={`We Are ${data.cafeInfo.name}`} />
