@@ -1,0 +1,135 @@
+{
+  "siteUrl": "https://coffee.elixflare.com",
+  "cafeInfo": {
+    "name": "ElixCode Coffee Shop",
+    "phone": "+1234567890",
+    "whatsapp": "+1234567890",
+    "instagram": "https://instagram.com/elixcode",
+    "location": "123 Main St, Gqeberha, South Africa",
+    "email": "info@elixcode.com",
+    "qrCodeUrl": "/images/qr-placeholder.png",
+    "openingHours": "Mon\u2013Sun: 9:00 \u2013 22:00"
+  },
+  "story": "Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea. Eirmod diam magna sed sea rebum, kasd eirmod vero ipsum diam sed lorem.",
+  "vision": "Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos. Ipsum et dolor kasd sit ea justo.",
+  "features": [
+    {
+      "title": "Fastest Door Delivery",
+      "description": "Sit lorem ipsum et diam elitr est dolor sed duo. Delivery that keeps up with your cravings."
+    },
+    {
+      "title": "Fresh Coffee Beans",
+      "description": "We roast in-house to capture peak aroma and flavor in every cup."
+    },
+    {
+      "title": "Best Quality Coffee",
+      "description": "Barista-crafted beverages with consistent quality and a cozy vibe."
+    },
+    {
+      "title": "Online Table Booking",
+      "description": "Reserve your seat with a tap. No queues, just good coffee."
+    }
+  ],
+  "deals": [
+    {
+      "title": "Sunday Special Offer",
+      "description": "Buy 1 get 1 free on all Hot Coffee every Sunday!",
+      "badge": "Sundays Only"
+    },
+    {
+      "title": "Tasty Thursday -20%",
+      "description": "Get 20% off pastries on Thursdays.",
+      "badge": "Every Thursday"
+    }
+  ],
+  "menuItems": [
+    {
+      "category": "Hot Coffee",
+      "name": "Black Coffee",
+      "description": "Rich and bold drip coffee from freshly ground beans.",
+      "image": "/images/black-coffee.jpg",
+      "price": "$3.99",
+      "ingredients": [
+        "Freshly ground beans",
+        "Hot water"
+      ]
+    },
+    {
+      "category": "Hot Coffee",
+      "name": "Cappuccino",
+      "description": "Silky microfoam over a bold espresso base.",
+      "image": "/images/cappuccino.jpg",
+      "price": "$4.99",
+      "ingredients": [
+        "Espresso",
+        "Steamed milk",
+        "Milk foam"
+      ]
+    },
+    {
+      "category": "Hot Drinks",
+      "name": "Hot Chocolate",
+      "description": "Creamy chocolate with a hint of vanilla.",
+      "image": "/images/hot-chocolate.jpg",
+      "price": "$4.50",
+      "ingredients": [
+        "Cocoa",
+        "Milk",
+        "Sugar",
+        "Vanilla"
+      ]
+    },
+    {
+      "category": "Cold Coffee",
+      "name": "Iced Latte",
+      "description": "Chilled espresso with milk over ice.",
+      "image": "/images/iced-latte.jpg",
+      "price": "$4.99",
+      "ingredients": [
+        "Espresso",
+        "Cold milk",
+        "Ice"
+      ]
+    },
+    {
+      "category": "Cold Drinks",
+      "name": "Lemon Iced Tea",
+      "description": "Zesty, refreshing, lightly sweetened.",
+      "image": "/images/lemon-iced-tea.jpg",
+      "price": "$3.75",
+      "ingredients": [
+        "Black tea",
+        "Lemon",
+        "Sugar",
+        "Ice"
+      ]
+    },
+    {
+      "category": "Pastries",
+      "name": "Butter Croissant",
+      "description": "Flaky, buttery layers baked fresh daily.",
+      "image": "/images/croissant.jpg",
+      "price": "$2.99",
+      "ingredients": [
+        "Butter",
+        "Flour",
+        "Yeast",
+        "Sugar",
+        "Salt"
+      ]
+    },
+    {
+      "category": "Snacks",
+      "name": "Almond Biscotti",
+      "description": "Crunchy Italian biscuit, perfect for dunking.",
+      "image": "/images/biscotti.jpg",
+      "price": "$2.25",
+      "ingredients": [
+        "Almonds",
+        "Flour",
+        "Sugar",
+        "Eggs"
+      ]
+    }
+  ]
+}
